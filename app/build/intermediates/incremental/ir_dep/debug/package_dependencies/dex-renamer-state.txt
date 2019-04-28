@@ -1,0 +1,4 @@
+#Tue Apr 23 21:44:34 CST 2019
+base.0=/Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/app/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex

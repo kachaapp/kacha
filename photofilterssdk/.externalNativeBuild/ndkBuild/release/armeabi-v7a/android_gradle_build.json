@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "/Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/photofilterssdk/src/main/jni/Android.mk",
+    "/Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/photofilterssdk/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/lvvv/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/photofilterssdk/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/photofilterssdk/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/photofilterssdk/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/photofilterssdk/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "NativeImageProcessor-release-armeabi-v7a": {
+      "buildCommand": "/Users/lvvv/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/photofilterssdk/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/photofilterssdk/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d0 APP_PLATFORM\u003dandroid-16 NDK_OUT\u003d/Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/photofilterssdk/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/photofilterssdk/build/intermediates/ndkBuild/release/lib /Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/photofilterssdk/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libNativeImageProcessor.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "NativeImageProcessor",
+      "files": [
+        {
+          "src": "/Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/photofilterssdk/src/main/jni/NativeImageProcessor.cpp",
+          "flags": "-target armv7-none-linux-androideabi16 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/lvvv/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -Oz -DNDEBUG -Isrc/debug/jni -Isrc/main/jni -I/Users/lvvv/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++/include -I/Users/lvvv/Library/Android/sdk/ndk-bundle/sources/cxx-stl/llvm-libc++abi/include -I/Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/photofilterssdk/src/main/jni -std\u003dc++11 -frtti -fexceptions -DANDROID -DANDROID -nostdinc++ -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "/Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/photofilterssdk/build/intermediates/ndkBuild/release/obj/local/armeabi-v7a/libNativeImageProcessor.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "/Users/lvvv/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

@@ -1,0 +1,3 @@
+Android NDK: WARNING: Unsupported source file extensions in /Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/photofilterssdk/src/main/jni/Android.mk for module NativeImageProcessor    
+Android NDK:   Android.mk Application.mk    
+make: `/Users/lvvv/Downloads/v2ex-daily-android-master/Kacha/photofilterssdk/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libNativeImageProcessor.so' is up to date.

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/weChat"
+        android:title="分享到微信"/>
+    <item android:id="@+id/qq"
+        android:title="分享到QQ"/>
+    <item android:id="@+id/pyq"
+        android:title="分享到微信朋友圈"/>
+    <item android:id="@+id/qqZone"
+        android:title="分享到QQ空间"/>
+</menu>
